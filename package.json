@@ -1,0 +1,9 @@
+{
+  "name": "react-native-searchable-selectbox",
+  "version": "0.0.1",
+  "description": "Searchable select box for ReactNative",
+  "main": "index.js",
+  "repository": "https://github.com/irisAsh/react-native-searchable-selectbox",
+  "author": "irisAsh <043takotoka@gmail.com>",
+  "license": "MIT"
+}
