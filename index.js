@@ -18,6 +18,7 @@ export default class Selectbox extends Component {
       boxBorderColor,
       boxBorderWidth,
       listColumn,
+      onSelected,
       selectedColor,
     } = this.props;
 
@@ -73,6 +74,7 @@ export default class Selectbox extends Component {
                       text: item,
                     });
                     this.hideList();
+                    onSelected();
                   }}
                 >
                   <View>
@@ -116,6 +118,7 @@ Selectbox.defaultProps = {
   boxBorderWidth: 1,
   listColumn: 4,
   listData: [],
+  onSelected: () => {},
   selectedColor: '#ffd6e9',
   text: null,
 }
